@@ -20,6 +20,15 @@
         android:theme="@style/Theme.Default"
         tools:targetApi="31">
         <activity
+            android:name=".ThirdActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SecondActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FirstScrean"
+            android:exported="false" />
+        <activity
             android:name=".ui.RootActivity"
             android:exported="true">
             <intent-filter>

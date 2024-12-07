@@ -4,6 +4,7 @@ plugins {
     jetbrainsKotlinSerialization version Version.Kotlin.language
     kotlinAnnotationProcessor
     id("com.google.dagger.hilt.android").version("2.51.1")
+    id("org.jetbrains.kotlin.android")
 }
 
 val packageName = "ru.myitschool.work"
@@ -35,6 +36,10 @@ android {
 }
 
 dependencies {
+    implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation("com.google.android.material:material:1.10.0")
+    implementation("androidx.activity:activity:1.8.0")
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     defaultLibrary()
 
     implementation(Dependencies.AndroidX.activity)
