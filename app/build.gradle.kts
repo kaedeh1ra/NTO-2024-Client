@@ -4,7 +4,7 @@ plugins {
     jetbrainsKotlinSerialization version Version.Kotlin.language
     kotlinAnnotationProcessor
     id("com.google.dagger.hilt.android").version("2.51.1")
-    id("org.jetbrains.kotlin.android")
+    //id("org.jetbrains.kotlin.android")
 }
 
 val packageName = "ru.myitschool.work"
