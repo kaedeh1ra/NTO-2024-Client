@@ -62,6 +62,9 @@ dependencies {
     val hilt = "2.51.1"
     implementation("com.google.dagger:hilt-android:$hilt")
     kapt("com.google.dagger:hilt-android-compiler:$hilt")
+
+    implementation("jakarta.inject:jakarta.inject-api:2.0.1")
+    implementation("javax.inject:javax.inject:1")
 }
 
 kapt {
